@@ -1,4 +1,6 @@
-protocol AMComponent {
+import SwiftUI
+
+public protocol AMComponent {
     /// Name displayed in the component section of App Maker's editor
     var editorName: String { get }
     /// Icon displayed in the component section of App Maker's editor
@@ -8,7 +10,7 @@ protocol AMComponent {
 }
 
 /// Not supported yet...
-protocol AMAction {
+public protocol AMAction {
     /// Name displayed in the component section of App Maker's editor
     var editorName: String { get }
     /// Icon displayed in the component section of App Maker's editor
