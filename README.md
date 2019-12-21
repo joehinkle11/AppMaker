@@ -17,7 +17,7 @@ The general pattern is to extend your custom struct/class with either `AMCompone
 Expose a custom view to the editor but extending the `AMComponent` protocol.
 
 ```swift
-import SwiftUI
+import AppMaker
 
 struct YourCustomView: View {
    // your custom view code
@@ -33,6 +33,8 @@ extension YourCustomView: AMComponent {
 Expose custom Swift code to the editor but extending the `AMAction` protocol.
 
 ```swift
+import AppMaker
+
 struct YourCustomSwiftCode {
    // your custom swift code
 }
